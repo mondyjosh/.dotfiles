@@ -1,3 +1,6 @@
 [user]
     name = Josh Mondy
     email = 55757183+mondyjosh@users.noreply.github.com
+
+[core]
+	editor = nvim
