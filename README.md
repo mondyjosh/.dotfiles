@@ -21,6 +21,7 @@ git clone https://github.com/mondyjosh/.dotfiles.git
 
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.gitcon ~/.gitconfig
+ln -s ~/.dotfiles/bin/.local/scripts ~/bin/.local
 ```
 
 4. TODO: There's probably something here to record.
