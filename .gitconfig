@@ -20,3 +20,5 @@
 [url "ssh://git@bitbucket.org/"]
   insteadOf = https://bitbucket.org/
 
+[advice]
+	addIgnoredFile = false
