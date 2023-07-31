@@ -2,9 +2,11 @@
 
 ## Steps to boostrap a new Linux system
 
-1. TODO: There's probably something here to record.
+1. Setup SSH keys.
 
-2. Clone repo into new hidden directory.
+3. TODO: There's probably something here to record.
+
+4. Clone repo into new hidden directory.
 
 ```bash
 # Use SSH (if set up):
