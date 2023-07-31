@@ -35,4 +35,4 @@ ln -s ~/.dotfiles/bin/.local/scripts ~/bin/.local
 - Make a checklist of steps to decommission computer before wiping hard drive. 
 - Integrate other services into dotfiles
 - Examine [dotfiles.github.io](https://dotfiles.github.io) for inspiration/examples.
-
+- stow symlinks
