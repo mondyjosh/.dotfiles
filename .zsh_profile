@@ -1,0 +1,3 @@
+# search for a directory, then open in new tmux session
+bindkey -s ^f "tmux-sessionizer\n"
+

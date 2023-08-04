@@ -22,8 +22,9 @@ git clone https://github.com/mondyjosh/.dotfiles.git
 # TODO: Investigate install scripts and boostrapping tooling (i.e., Ansible)
 
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.zsh_profile ~/.zsh_profile
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/bin/.local/scripts ~/bin/.local
+ln -s ~/.dotfiles/bin/.local/scripts/* ~/.local/bin
 ```
 
 4. TODO: There's probably something here to record.
