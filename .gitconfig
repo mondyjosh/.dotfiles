@@ -28,4 +28,3 @@
 
 [pull]
 	rebase = false
-	ff = only
