@@ -1,3 +1,10 @@
+# replace vim with neovim
+export XDG_CONFIG_HOME=$HOME/.config
+VIM="nvim"
+
+addToPathFront $HOME/.local/scripts
+addToPathFront $HOME/.local/bin
+
 # search for a directory, then open in new tmux session
 bindkey -s ^f "tmux-sessionizer\n"
 
