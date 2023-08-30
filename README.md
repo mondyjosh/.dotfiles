@@ -23,7 +23,7 @@ git clone https://github.com/mondyjosh/.dotfiles.git
 
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.zsh_profile ~/.zsh_profile
-ln -s ~/.dotfiles/.p10k.zsh ~.p10k.zsh
+ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/bin/.local/scripts/* ~/.local/bin
 ```
