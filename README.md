@@ -21,6 +21,7 @@ git clone https://github.com/mondyjosh/.dotfiles.git
 # There are better and less manual ways to do this
 # TODO: Investigate install scripts and boostrapping tooling (i.e., Ansible)
 
+ln -s ~/.config/nvim ~/.dotfiles/nvim    
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.zsh_profile ~/.zsh_profile
 ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
