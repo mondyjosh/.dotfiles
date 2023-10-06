@@ -42,3 +42,4 @@ ln -s ~/.dotfiles/bin/.local/scripts/* ~/.local/bin
 - Integrate other services into dotfiles
 - Examine [dotfiles.github.io](https://dotfiles.github.io) for inspiration/examples.
 - stow symlinks
+- submodule link to https://github.com/mondyjosh/nvim/tree/main (maybe? Is this a good idea? Time will tell)
