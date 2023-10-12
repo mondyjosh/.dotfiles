@@ -9,7 +9,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-plugins=(git)
+plugins=(git ssh-agent zsh-autosuggestions zsh-nvm)
 
 source $ZSH/oh-my-zsh.sh
 
