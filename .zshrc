@@ -7,9 +7,25 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-source $ZSH/oh-my-zsh.sh
+plugins=(
+    git 
+    ssh-agent 
+    zsh-autosuggestions 
+    zsh-nvm
+)
 
-plugins=(git ssh-agent zsh-autosuggestions zsh-nvm)
+# Load ssh-agent quietly and lazily
+#zstyle :omz:plugins:ssh-agent quiet yes
+#zstyle :omz:plugins:ssh-agent lazy yes
+
+# Enable ssh-agent forwarding
+zstyle :omz:plugins:ssh-agent agent-forwarding yes
+
+# Load ssh identities
+zstyle :omz:plugins:ssh-agent identities ~/.ssh/id_ed25519
+
+# Source oh-my-zsh
+source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
