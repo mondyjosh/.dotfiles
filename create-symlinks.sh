@@ -6,4 +6,9 @@ ln -s ~/.dotfiles/zsh/.zsh_profile ~/.zsh_profile
 ln -s ~/.dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
 ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
+
+# Create and symlink scripts folder 
+mkdir -p ~/.local/bin
 ln -s ~/.dotfiles/bin/.local/scripts/* ~/.local/bin
+
+
