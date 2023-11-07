@@ -3,7 +3,7 @@
 
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/zsh/.zsh_profile ~/.zsh_profile
-ln -s ~/.dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
+ln -s ~/.dotfiles/zsh/.spaceshiprc.zsh ~/.spaceshiprc.zsh
 ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
 
