@@ -8,6 +8,7 @@ plugins=(
     ssh-agent
     zsh-autosuggestions 
     zsh-nvm
+    zsh-syntax-highlighting
 )
 
 # Adjust agents that keychain manages
