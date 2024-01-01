@@ -1,7 +1,10 @@
+# Path to your oh-my-zsh installation
 export ZSH="$HOME/.oh-my-zsh"
 
+# Set name of the theme to load
 ZSH_THEME="spaceship"
 
+# Load plugins - Add wisely, as too many plugins slow down shell startup
 plugins=(
     git 
     keychain
@@ -17,4 +20,6 @@ zstyle :omz:plugins:keychain agents gpg,ssh
 # Source oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
+# Source zsh profile
+source ~/.zsh_profile
 
