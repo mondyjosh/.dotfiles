@@ -10,9 +10,8 @@ mkdir -p $CONFIG_DIR/alacritty
 ln -sf $DOTFILE_DIR/alacritty/alacritty.toml $CONFIG_DIR/alacritty/alacritty.toml
 
 mkdir -p $CONFIG_DIR/git
-ln -sf $DOTFILE_DIR/git/.gitconfig $CONFIG_DIR/git/.gitconfig
+ln -sf $DOTFILE_DIR/git/config $CONFIG_DIR/git/config
 
-# TODO: Make tmux source from $XDG_CONFIG_HOME
 mkdir -p $CONFIG_DIR/tmux
 ln -sf $DOTFILE_DIR/tmux/tmux.conf $CONFIG_DIR/tmux/tmux.conf
 
