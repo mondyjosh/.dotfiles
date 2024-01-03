@@ -7,6 +7,9 @@ CONFIG_DIR=$HOME/.config
 SCRIPT_DIR=$HOME/.local/bin
 
 mkdir -p $CONFIG_DIR/alacritty
+#TODO: Move alacritty themes shenanigans to ansible
+# mkdir -p ~/.config/alacritty/themes
+# git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 ln -sf $DOTFILE_DIR/alacritty/alacritty.toml $CONFIG_DIR/alacritty/alacritty.toml
 
 mkdir -p $CONFIG_DIR/git
