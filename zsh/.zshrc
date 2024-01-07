@@ -6,10 +6,10 @@ ZSH_THEME="spaceship"
 
 # Load plugins - Add wisely, as too many plugins slow down shell startup
 plugins=(
-    git 
+    git
     keychain
     ssh-agent
-    zsh-autosuggestions 
+    zsh-autosuggestions
     zsh-nvm
     zsh-syntax-highlighting
 )
